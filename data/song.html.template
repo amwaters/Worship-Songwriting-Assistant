@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lorem Ipsum</title>
+    <style>
+        @font-face {
+          font-family: 'Nunito';
+          font-weight: 300;
+          src: url(Nunito-Light.ttf) format('truetype');
+        }
+        @font-face {
+          font-family: 'Nunito';
+          font-weight: 400;
+          src: url(Nunito-Regular.ttf) format('truetype');
+        }
+        @font-face {
+          font-family: 'Nunito';
+          font-weight: 700;
+          src: url(Nunito-Bold.ttf) format('truetype');
+        }
+        @font-face {
+          font-family: 'Nunito';
+          font-weight: 800;
+          src: url(Nunito-ExtraBold.ttf) format('truetype');
+        }
+
+        :root {
+            font-family: 'Nunito', sans-serif;
+            font-size: 14pt;
+            background-color: transparent;
+        }
+
+        body {
+            /*width: 21cm;
+            padding: 1.5cm;*/
+            margin: 0.5cm;
+            background-color: transparent;
+        }
+
+        header {
+            text-align: center;
+            font-size: 13pt;
+        }
+        header > h1 {
+            font-size: 2em;
+            font-weight: 700;
+            margin: 0;
+        }
+        header > p > span:after {
+            content: " | ";
+        }
+        header > p > span:last-of-type:after {
+            content: "";
+        }
+
+        header, footer {
+            text-align: center;
+            font-size: 10pt;
+            margin-top: 1cm;
+        }
+
+        section > h2 {
+            font-weight: 300;
+            font-size: 13pt;
+            margin: 0;
+            margin-top: 0.5cm;
+        }
+        section > p {
+            margin: 0;
+            margin-top: 0.2cm;
+            margin-left: 0.5cm;
+        }
+        section > p > span {
+            display: inline-block;
+        }
+        section > p > span > span {
+            display: block;
+        }
+        section > p > span > span:first-child {
+            font-size: 13pt;
+            font-weight: 800;
+        }
+        section > p > span > span:last-child {
+            font-size: 13pt;
+            font-weight: 700;
+        }
+        sup {
+            font-size: 0.6em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="title">Lorem Ipsum</h1>
+        <p>
+            <span id="artist">
+                Pellentesque Donec
+            </span>
+            <span id="key">
+                Key: G
+            </p>
+        </p>
+    </header>
+    <article>
+
+        <section>
+            <h2>Verse 1</h2>
+            <p>
+                <span>
+                    <span>1</span>
+                    <span>Lorem ipsum dolor</span>
+                </span>
+                <span>
+                    <span>4</span>
+                    <span>sit amet</span>
+                </span>
+            </p>
+            <p>
+                <span>
+                    <span>5</span>
+                    <span>Consectetur adipiscing elit</span>
+                </span>
+            </p>
+            <p>
+                <span>
+                    <span>D&#9839;</span>
+                    <span>Phasellus a quam</span>
+                </span>
+            </p>
+            <p>
+                <span>
+                    <span>G&#9837;m<sup>7</sup></span>
+                    <span>Libero</span>
+                </span>
+            </p>
+        </section>
+        
+        <section>
+            <h2>Verse 2</h2>
+            Nulla enim risus
+            Malesuada in vulputate eget
+            Fermentum ultricies ex
+        </section>
+
+        <section>
+            <h2>Chorus</h2>
+            Duis dui eros
+            Mattis eu urna non
+            Vulputate elementum libero
+        </section>
+            
+        <section>
+            <h2>Bridge</h2>
+            Integer dignissim erat dolor
+            Id aliquet orci mollis et
+            Nulla aliquam est vel ligula
+        </section>
+
+    </article>
+    <footer>
+        <p>
+            Created with
+            <a href="https://chat.openai.com/g/g-JvfqIqEUv">Worship Songwriting Assistant</a>
+            and GPT4
+        </p>
+    </footer>
+</body>
+</html>
