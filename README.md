@@ -1,24 +1,21 @@
 # Worship Songwriting Assistant
 
-> Writes music for church worship. Source code and more info: [Open source]
+> Helps you write great songs for church services.
 
-[ChatGPT](#) | [Instructions](Instructions.md)
+[Open in ChatGPT](https://chat.openai.com/g/g-JvfqIqEUv) | [View Instructions](Instructions.md) | [MIT License](LICENSE)
 
 
 ## Conversation Starters
 
-- Write a song about anything.
 - Write a worship song based on Psalm 23.
-- Write a song about peace in the style of Matt Redman.
+- Write a simple heartfelt song about peace.
 - Write a praise song about freedom and forgiveness.
-- Write a song that addresses climate change.
+- Write a traditional hymn about salvation.
 
 
-## Issues
+## Known Issues
 
-+ Structurally loose connection between lyrics and chords
-+ Rhythm and stress analysis is terrible
-+ PDF is only single-page, and it can overflow
-
-
-
++ There's only a macro-structural connection between lyrics and chords, it'd be nice to nudge the model to add more micro-structure.
++ I haven't tested if the IPA transcription *actually* improves results
++ Rhythm and stress analysis might also help (if I can get it working; GPT4 is *terrible* at syllables)
++ Do the sharps and flats look a little weird to you?
