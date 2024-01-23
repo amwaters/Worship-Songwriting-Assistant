@@ -1,10 +1,14 @@
-![Worship Songwriting Assistant](Logo.png)
+<p align="center"><img src="Logo.png" alt="Worship Songwriting Assistant Logo" height="100"/></p>
 
-# Worship Songwriting Assistant
+<h1 align="center">Worship Songwriting Assistant</h1>
 
-> Helps you write great songs for church services.
+<p align="center">Helps you write great songs for church services.</p>
 
-[Open in ChatGPT](https://chat.openai.com/g/g-JvfqIqEUv) | [View Instructions](Instructions.md) | [MIT License](LICENSE)
+<p align="center">
+  <a href="https://chat.openai.com/g/g-JvfqIqEUv">Open in ChatGPT</a>
+  | <a href="Instructions.md">Instructions</a>
+  | <a href="LICENSE">MIT License</a>
+</p>
 
 
 ## Features
