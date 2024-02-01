@@ -129,16 +129,16 @@ def split_chords(line):
             blocks.append(("", pair))
     return blocks
 
-rxExtensionNumber = re.compile(r'(?<!^)(\d+)')
+rxExtensionNumber = re.compile(r'(?<!^|/)(\d+)')
 rxWordDash = re.compile(r'(\w)-(\w)')
 
 def format_chord(chord: str) -> str:
     """ Formats a chord for display. """
+    chord = chord.replace(" ", "")
     chord = rxExtensionNumber.sub(r'<sup>\1</sup>', chord)
     chord = rxWordDash.sub("", chord)
     chord = chord.replace("#", "&#9839;")
     chord = chord.replace("b", "&#9837;")
-    chord = chord.replace(" ", "")
     chord += "&nbsp;"
     return chord
 
